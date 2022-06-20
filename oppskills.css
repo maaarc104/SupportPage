@@ -1,0 +1,144 @@
+@font-face {
+    font-family: CallofDuty;
+    src: url(CallOfOpsDuty-qAyq.ttf);
+}
+body {
+    background-color: #000;
+    color: white;
+    margin:0;
+}
+.contain{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background: grey;;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+    /* Logo */
+.logo{
+  line-height: 0;
+  float: left;
+  margin-left: 20px;
+}
+
+    /* Navigation Bar */
+nav{
+    float: right;
+    display: flex;
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+nav li{
+    line-height: 0.5;
+    float: left;
+    font-family: CallofDuty;
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+nav li a{
+    text-align: left;     
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 35px 30px;   
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+
+}
+.intro h1 {
+    text-align: center;
+    color: #f2f2f2;
+    padding-top:1%;
+    padding-bottom: -8%;
+    font-family:  Call Of Ops Duty;
+    font-size: 35px;
+}  
+img{
+    padding: 0 10px 0 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 6%;
+}
+.temp{
+    font-family: Bell MT;
+   margin: auto;
+   text-align: center;
+   width: 60%;
+   padding: 10px;
+   font-size: 20px;
+   
+}
+.title h1 {
+    text-align: center;
+    color: #f2f2f2;
+    padding-top:1%;
+    padding-bottom: -8%;
+    font-family:  Major League Duty;
+    font-size: 35px;
+}  
+.trans{
+    font-family: Bell MT;
+   margin: auto;
+   text-align: center;
+   width: 60%;
+   padding: 10px;
+   font-size: 20px;
+  
+}
+.warm{
+   font-family: Bell MT;
+   margin: auto;
+   text-align: center;
+   width: 60%;
+   padding: 10px;
+   font-size: 20px;
+  
+}
+.icon img{
+    margin-top: 2%;
+}
+div.list a {
+    color: white;
+    text-decoration: none;
+}
+
+div.list {
+    font-family: Calibri;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+div.list ul li {
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 30px;  
+}
+.logo2 img{
+    margin-top: 1%;
+}
+.linee hr{
+    margin-top: 15%;
+}

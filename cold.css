@@ -1,0 +1,159 @@
+@font-face {
+    font-family: CallofDuty;
+    src: url(CallOfOpsDuty-qAyq.ttf);
+}
+body {
+    background-color: #000;
+    color: white;
+}
+.contain{
+    width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    background: grey;;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+    /* Logo */
+.logo{
+  line-height: 0;
+  float: left;
+  margin-left: 20px;
+}
+
+    /* Navigation Bar */
+nav{
+    float: right;
+    display: flex;
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+}
+
+nav li{
+    line-height: 0.5;
+    float: left;
+    font-family: CallofDuty;
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+nav li a{
+    text-align: left;     
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    padding: 35px 30px;   
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+
+}
+.manim-cont{
+    margin: 150px auto;
+    width: 50%;
+    padding: 8px;
+}
+.intro{
+   font-family:  Major League Duty;
+   margin: auto;
+   width: 60%;
+   text-align: center;
+   padding: 10px;
+}
+.duct{
+    font-family: Bell MT;
+   margin: auto;
+   text-align: center;
+   width: 60%;
+   padding: 10px;
+   font-size: 20px;
+}
+img{
+    padding: 0 10px 0 0;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4%;
+}
+.line hr{
+   margin: auto;
+   width: 60%;
+}
+.fp{
+    font-family: Bell MT;
+    margin-left: 25%;
+    width: 60%;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 3%;
+}
+.cont{
+    font-family: Bell MT;
+    margin-left: 25%;
+    width: 60%;
+    text-align: left;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 2%;
+    text-decoration: underline;
+}
+.cont1{
+    font-family: Bell MT;
+    margin-left: 26%;
+    width: 60%;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: -2%;
+}
+.comp{
+     font-family: Bell MT;
+    margin-left: 26%;
+    width: 60%;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: -1%;
+    margin-bottom: 8%;
+}
+div.list a {
+    color: white;
+    text-decoration: none;
+}
+
+div.list {
+    font-family: Calibri;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+div.list ul li {
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 30px;  
+}
+.logo2 img{
+    margin-top: 1%;
+}
+.linee hr{
+    margin-top: 15%;
+}
